@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Craze Craft</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="shop.html" class="logo">CRAZE CRAFT</a>
+            <span>Finalize Order</span>
+        </div>
+    </header>
+
+    <section class="checkout-section">
+        <div class="container small-container">
+            <h2 class="section-title">Delivery Details</h2>
+            <form id="checkoutForm" class="checkout-form">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" id="custName" required placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label>Delivery Address</label>
+                    <textarea id="custAddress" required placeholder="Flat No, Street, Landmark, City"></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Payment Method</label>
+                    <div class="payment-options">
+                        <label class="radio-card">
+                            <input type="radio" name="payment" value="UPI" checked>
+                            <span class="radio-label">UPI</span>
+                        </label>
+                        <label class="radio-card">
+                            <input type="radio" name="payment" value="Cash on Delivery (COD)">
+                            <span class="radio-label">COD</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div id="orderReview" class="order-review">
+                    </div>
+
+                <button type="submit" class="cta-btn block-btn">Confirm & Send via WhatsApp</button>
+                <a href="shop.html" class="back-link">← Back to Gallery</a>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

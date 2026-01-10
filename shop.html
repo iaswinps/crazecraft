@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Craze Craft</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">CRAZE CRAFT</a>
+            <div class="cart-summary">
+                <span id="cartCount">0 Items</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="catalog-section">
+        <div class="container">
+            <h2 class="section-title">The Artist's Portfolio</h2>
+            <div id="productGrid" class="product-grid"></div>
+        </div>
+    </section>
+
+    <div id="cartDrawer" class="cart-drawer">
+        <div class="drawer-content">
+            <p><strong id="drawerTotal">0 Items</strong> selected for commission</p>
+            <div class="drawer-btns">
+                <button id="clearBtn" class="sec-btn-sm">Reset</button>
+                <button id="placeOrder" class="cta-btn">Send WhatsApp Order</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
