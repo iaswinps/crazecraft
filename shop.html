@@ -29,8 +29,17 @@
             <p><strong id="drawerTotal">0 Items</strong> selected for commission</p>
             <div class="drawer-btns">
                 <button id="clearBtn" class="sec-btn-sm">Reset</button>
-                <button id="placeOrder" class="cta-btn">Send WhatsApp Order</button>
+                <button id="placeOrder" class="cta-btn">Proceed to Checkout</button>
             </div>
+        </div>
+    </div>
+
+    <div id="detailModal" class="modal-overlay" onclick="closeModal()">
+        <div class="modal-card" onclick="event.stopPropagation()">
+            <div id="modalGallery" class="modal-gallery"></div>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDesc"></p>
+            <button class="cta-btn" onclick="closeModal()">Back to Shop</button>
         </div>
     </div>
 
