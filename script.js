@@ -3,7 +3,7 @@ const products = [
         id: 1, 
         name: "A4 Gallery Frame", 
         code: "FRM-A4", 
-        price: 850,
+        price: 450,
         images: ["https://i.postimg.cc/90mNSr2L/Whats-App-Image-2026-01-10-at-9-55-52-PM.jpg"],
         desc: "Handcrafted from premium hardwood. Features high-clarity glazing and reinforced mitred corners."
     },
